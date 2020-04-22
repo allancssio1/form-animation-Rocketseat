@@ -21,9 +21,15 @@
 <> Adicionado evento no body quando o formulário for clicado e iniciado o a animação por nome "down". o body recebe o style: "overflow: hidden", mas logo ao termino da animação "down" este style é removido.
 
 ## Desafio 05
-
+- Adicionar um efeito diferente de timing para a saida do formulário. 
+### Resolução
+<> Atravéz do JavaScript adiciono a "class = 'form-hide'" que adicionei uma animação de timing para fazer com que o form saia com tempo diferenciado.
 
 ## Desafio 06
+<> Fazer o formulário vibrar caso haja campos vazios, como resposta 'não-não'.
+### Resolução
 
 
 ## Desafio 07
+<>
+### Resolução
