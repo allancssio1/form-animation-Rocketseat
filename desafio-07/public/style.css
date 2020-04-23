@@ -98,6 +98,17 @@ form.validate-error{
   animation-iteration-count: 2;
 }
 
+/*==SQUARE==*/
+.squares li{
+  width: 40px;
+  height: 40px;
+  background: rgba(255, 255, 255, 0.15);
+  display: block;
+  position: absolute;
+  bottom: -40px;
+  animation: squares 12s infinite;
+  animation-direction: alternate;
+}
 
 /* CHAVE DE CHAMADA DA ANIMATÇÃO */
 @keyframes move {
@@ -137,5 +148,18 @@ form.validate-error{
   }
   70%{
     transform: translateX(15%);
+  }
+}
+@keyframes squares{
+  from{
+    opacity: 0;
+    transform: translateY(0);
+  }
+  50%{
+    opacity: 1;
+  }
+  to{
+    opacity: 0;
+    transform: translateY(-700px) rotate(960deg);
   }
 }
